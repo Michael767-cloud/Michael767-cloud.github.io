@@ -3,61 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Micheal Akwe - Professional Portfolio</title>
-    <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 40px 20px; color: #333; background-color: #f4f7f6; }
-        .container { background: #fff; padding: 40px; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
-        
-        /* Profile Header Design */
-        .profile-header { display: flex; align-items: center; gap: 30px; margin-bottom: 40px; border-bottom: 2px solid #3498db; padding-bottom: 30px; flex-wrap: wrap; }
-        
-        /* Your photo settings - 180px for better viewing */
-        .profile-pic { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 5px solid #3498db; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-        
-        h1 { color: #2c3e50; margin: 0; font-size: 2.5em; }
-        .contact-info { margin-top: 10px; }
-        a { color: #3498db; text-decoration: none; font-weight: bold; }
-        a:hover { text-decoration: underline; }
-        
-        h2 { color: #2c3e50; margin-top: 40px; border-left: 6px solid #3498db; padding-left: 15px; }
-        ul { list-style-type: none; padding: 0; }
-        li { background: #fff; margin-bottom: 15px; padding: 20px; border: 1px solid #e1e4e8; border-radius: 10px; display: flex; align-items: center; transition: 0.3s; }
-        li:hover { border-color: #3498db; transform: translateY(-2px); }
-        .icon { margin-right: 15px; font-size: 1.5em; }
-    </style>
+    <title>Micheal Akwe - Technical Support Specialist</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
-        <div class="profile-header">
+        <!-- Header / Hero Section -->
+        <header class="profile-header">
             <img src="profile.jpg" alt="Micheal Akwe" class="profile-pic">
-            
             <div class="header-text">
                 <h1>Micheal Akwe</h1>
-                <div class="contact-info">
-                    <p><strong>Email:</strong> <a href="mailto:micheal@kb-dev.tech">micheal@kb-dev.tech</a></p>
-                    <p><strong>Location:</strong> Edmonton, Alberta</p>
+                <h2>Technical Support Specialist</h2>
+                <p class="subtitle">Specializing in hands-on device troubleshooting, system optimization, client-focused support, and verified technical credentials.</p>
+            </div>
+        </header>
+
+        <!-- About Me Section -->
+        <section>
+            <h3>About Me</h3>
+            <p>I am a dedicated Technical Support Specialist with a strong focus on delivering exceptional customer service. I excel at navigating complex operating systems, ensuring system reliability, and leveraging persistent problem-solving skills to resolve technical issues efficiently.</p>
+        </section>
+
+        <!-- Core Skills Section -->
+        <section>
+            <h3>Core Skills</h3>
+            <ul class="skills-list">
+                <li><strong>Operating Systems:</strong> Windows OS & Android OS Management & Navigation</li>
+                <li><strong>Technical Skills:</strong> File System Management, Startup & Resource Optimization, Device Diagnostics, End-User Technical Support, Hardware-Level Recovery</li>
+            </ul>
+        </section>
+
+        <!-- Certificates & Credentials Section -->
+        <section>
+            <h3>Certificates & Credentials</h3>
+            <div class="grid-container">
+                <div class="card">
+                    <h4>Cisco: Networking Basics</h4>
+                    <p>Issuing Organization: Cisco<br>Completion Date: [Insert Date]</p>
+                    <a href="networking.pdf" class="btn" target="_blank">View Certificate</a>
+                </div>
+                <div class="card">
+                    <h4>Cisco: Introduction to Cybersecurity</h4>
+                    <p>Issuing Organization: Cisco<br>Completion Date: [Insert Date]</p>
+                    <a href="cybersecurity.pdf" class="btn" target="_blank">View Certificate</a>
+                </div>
+                <div class="card">
+                    <h4>Cisco: Using Computer and Mobile Devices</h4>
+                    <p>Issuing Organization: Cisco<br>Completion Date: [Insert Date]</p>
+                    <a href="computer-devices.pdf" class="btn" target="_blank">View Certificate</a>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <h2>Cisco Certifications</h2>
-        <p>Click below to verify my official credentials:</p>
-        
-        <ul>
-            <li>
-                <span class="icon">📜</span>
-                <a href="networking.pdf" target="_blank">Cisco: Networking Basics</a>
-            </li>
-            <li>
-                <span class="icon">📜</span>
-                <a href="cybersecurity.pdf" target="_blank">Cisco: Introduction to Cybersecurity</a>
-            </li>
-            <li>
-                <span class="icon">📜</span>
-                <a href="computer-devices.pdf" target="_blank">Cisco: Using Computer and Mobile Devices</a>
-            </li>
-        </ul>
+        <!-- Featured Projects / Case Studies Section -->
+        <section>
+            <h3>Featured Projects & Case Studies</h3>
+            <div class="grid-container">
+                <div class="card">
+                    <h4>Android Hardware-Level Recovery & System Restore</h4>
+                    <p>Diagnosed an inaccessible, locked device; researched OEM-specific boot key combinations; accessed system recovery menus to execute a full reset and restore complete functionality.</p>
+                </div>
+                <div class="card">
+                    <h4>Windows Startup Optimization & Resource Management</h4>
+                    <p>Identified root causes of slow boot times; used Windows Task Manager to evaluate startup impact; disabled non-essential startup tasks to improve RAM usage and boot speed.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section>
+            <h3>Contact</h3>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:michael@kb-dev.tech">michael@kb-dev.tech</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+17807293006">+1 (780) 729-3006</a></p>
+            </div>
+        </section>
     </div>
 
 </body>
