@@ -124,6 +124,16 @@ p, li {
     margin-bottom: 10px;
 }
 
+.certificate-badge {
+    display: block;
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+    align-self: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
 .card p {
     font-size: 0.95em;
     margin-bottom: 20px;
